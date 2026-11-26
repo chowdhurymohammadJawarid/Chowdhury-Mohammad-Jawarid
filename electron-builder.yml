@@ -1,0 +1,17 @@
+appId: com.ultron.desktop.assistant
+productName: ULTRON
+directories:
+  output: release
+files:
+  - dist/**/*
+  - dist-server/**/*
+  - electron/**/*
+  - package.json
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: ULTRON-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true

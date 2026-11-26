@@ -1,0 +1,10 @@
+{
+  "name": "ULTRON",
+  "description": "Futuristic holographic personal desktop AI assistant with voice and three-clap activation, realistic female voice synthesis, live system telemetry, file management, and Windows desktop control.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
